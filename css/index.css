@@ -1,0 +1,107 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+.All1, h1, .heading1
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.All2, h2, .heading2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+.All3, h3, .heading3
+{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.All4, h4, .heading4
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.All5, h5, .heading5
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.All6, h6, .heading6
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+}
+#paraf
+{
+    margin-top: 0;
+    margin-bottom: 5;
+    font-family: cursive;
+    font-size: 15;
+    line-height: 22;
+}
+button
+{
+    display: inline-block;
+    padding-top: 15;
+    padding-right: 33;
+    padding-bottom: 15;
+    padding-left: 33;
+    border-top-style: solid;
+    border-top-width: 1;
+    border-top-color: #47474f;
+    border-right-style: solid;
+    border-right-width: 1;
+    border-right-color: #47474f;
+    border-bottom-style: solid;
+    border-bottom-width: 2;
+    border-bottom-color: #47474f;
+    border-left-style: solid;
+    border-left-width: 1;
+    border-left-color: #47474f;
+    background-color: transparent;
+    transition-property: backround-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    font-family: 'Courier New', Courier, monospace;
+    color: #47474f;
+    font-size: 19px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+}
