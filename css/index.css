@@ -2180,14 +2180,14 @@ html {
   .header {
     color: #fff;
     text-align: center;
-    background-image: linear-gradient(rgba(100, 209, 198, .55), rgba(100, 209, 198, .55)), url("https://assets-global.website-files.com/66000272bc476042eddf43de/66000272bc476042eddf4441_ocean-rocks.jpg");
+    background-image: linear-gradient(rgba(100, 209, 198, .55), rgba(100, 209, 198, .55)), url("https://images5.alphacoders.com/568/thumb-1920-568855.jpg");
     background-position: 0 0, 50% 70%;
     background-size: auto, cover;
     padding: 98px 10px;
   }
   
   .header.project-page {
-    background-image: linear-gradient(rgba(100, 209, 198, .55), rgba(100, 209, 198, .55)), url("https://assets-global.website-files.com/66000272bc476042eddf43de/66000272bc476042eddf442b_lake.jpg");
+    background-image: linear-gradient(rgba(100, 209, 198, .55), rgba(100, 209, 198, .55)), url("https://images5.alphacoders.com/568/thumb-1920-568855.jpg");
     padding-top: 77px;
     padding-bottom: 77px;
   }
