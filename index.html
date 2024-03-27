@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent | Demon Slayer</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="assets/icon/airplane.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="whiteSection">
+        <navbar class="container" id="orangeMenu">
+            <div class="navComponents">
+                <div class="navTitle">
+                    <a href="#" target="_blank"><img src="img/rw.svg" alt="RevoU"></a>
+                </div>
+                <div class="navContent">
+                    <ul>
+                        <li><a class="fa-home" href="#home">Home</a></li>
+                        <li><a href="#ourPackage">Paket kami</a></li>
+                        <li><a href="#callUs">Hubungi Kami</a></li>
+                        <li><a href="#masuk" onclick="openForm()">Masuk/Daftar</a></li>
+                    </ul>
+                </div>
+                <div class="humburgerMenu">
+                    <img id="humMenu" src="assets/icon/menu.png" alt="menu">
+                </div>
+                <div id="hidden">
+                    <ul id="hiddenUl">
+                        <li class="hiddenLi"><a href="#home">Home</a></li>
+                        <li class="hiddenLi"><a href="#ourPackage">Paket kami</a></li>
+                        <li class="hiddenLi"><a href="#callUs">Hubungi Kami</a></li>
+                        <li class="hiddenLi"><a href="#masuk" onclick="openForm()">Masuk/Daftar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </navbar>
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+        <div class="container">
+            <section id="home" class="whiteSection">
+                <div class="mainTitle">
+                    <h1>Agen Perjalanan Tepercaya Anda</h1>
+                    <p>Kebahagiaan Anda adalah kebahagiaan kami</p>
+                </div>
+                <div class="mainContent">
+                    <div class="leftLayout">
+                        <div class="imageBox">
+                            <div class="slides first">
+                                <img id="imageSlider1" src="assets/imgslide/jepang.jpg" alt="ImageSlider1">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider2" src="assets/imgslide/france.jpg" alt="ImageSlider2">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider3" src="assets/imgslide/singapure.jpg" alt="ImageSlider3">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider4" src="assets/imgslide/sby.jpg" alt="ImageSlider4">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider5" src="assets/imgslide/jepang.jpg" alt="ImageSlider5">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider6" src="assets/imgslide/bandung.jpg" alt="ImageSlider6">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider7" src="assets/imgslide/bali.jpg" alt="ImageSlider7">
+                            </div> 
+                        </div>
+                        <div class="testimoniBox">
+                            <p id="caption">"Liburan jadi menyenangkan bersama Travel <br> Agentku."</p>
+                            <div class="identityBox">
+                                <div class="identityPhoto">
+                                    <img id="profilePict" src="img/66000272bc476042eddf4426_person1.png" alt="ProfilePicture">
+                                </div>
+                                <div class="identityContent">
+                                    <h1>Richard Kalvar</h1>
+                                    <p>Photography, 34</p>
+                                </div>
+                            </div>
+                            <hr id="captionLine">
+                        </div>
+                        <div class="benefitsExplain">
+                            <p id="benefitsExplain">Keuntungan yang nanti di dapatkan :</p>
+                            <div class="explainBox">
+                                <div class="firstBox">
+                                    <div class="nums">1</div>
+                                    <p>Harga yang lebih terjangkau untuk anda dan <br> keluarga anda.</p>
+                                </div>
+                                <div class="secondBox">
+                                    <div class="nums">2</div>
+                                    <p>Memberikan rekomendasi tempat pemandagan <br> yang sangat menajubkan.</p>
+                                </div>
+                                <div class="thirdBox">
+                                    <div class="nums">3</div>
+                                    <p>Melayani anda sampai ke tujuan dalam waktu 1x24 <br>  jam jika terdapat kendala.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightLayout" id="rightLayout">
+                        <div class="titleForm">
+                            <h1>Hubungi Kami</h1>
+                            <p>Customer Service Kami akan menghubungi anda 1x24</p>
+                            <p>jam setelah data kami terima.</p>
+                        </div>
+                        <form action="/" id="formContact">
+                            <div class="input-control nameForm">
+                                <label for="name">Nama Anda:</label>
+                                <input type="text" id="name" placeholder="First and last name" autocomplete="off">
+                                <div class="error">
+                                    <img src="assets/icon/exclamation-mark.png" alt="error">
+                                    <p id="usernameCheckError">Nama Anda wajib diisi</p>
+                                </div>
+                            </div>
+                            <div class="input-control emailForm">
+                                <label for="email">Email Address:</label>
+                                <input type="email" id="email" placeholder="example@gmail.com" autocomplete="off">
+                                <div class="error">
+                                    <img src="assets/icon/exclamation-mark.png" alt="error">
+                                    <p id="emailCheckError">Email diperlukan</p>
+                                </div>
+                            </div>
+                            <div class="input-control optionForm">
+                                <label for="options">Apa yang Anda minati?</label>
+                                <div class="line"></div>
+                                <select id="options">
+                                    <option value="" disabled selected hidden>Select option</option>
+                                    <option>Tempat berlibur</option>
+                                    <option>Cantik alami</option>
+                                    <option>Pemandangan indah</option>
+                                </select>
+                                <div class="error">
+                                    <img src="assets/icon/exclamation-mark.png" alt="error">
+                                    <p>Opsi Anda diperlukan</p>
+                                </div>
+                            </div>
+                            <button id="submit" type="submit">KIRIM</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="ourPackage" class="coloredSection">
+            <img src="assets/desain/WhiteWave.png" alt="WhiteWave" width="100%">
+            <div class="container" id="ourPackageSection">
+                <div class="titlePackage">
+                    <h1 id="titlePackage">Paket kami</h1>
+                </div>
+                <div class="contentPackage">
+                    <div class="topPack">
+                        <div class="topContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/kota/Bali.jpg" alt="Bali">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Bali</h1>
+                                <p>Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                        <div class="topContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/kota/Japan.jpg" alt="Japan">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Japan</h1>
+                                <p>Travel dan wisata di Japan. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                        <div class="topContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/kota/Singapore.jpg" alt="Singapore">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Singapore</h1>
+                                <p>Travel dan wisata di Singapore. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="midPack">
+                        <hr id="midPackage">
+                    </div>
+                    <div class="botPack">
+                        <div class="botContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/kota/Bandung.jpg" alt="Bandung">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Bandung</h1>
+                                <p>Travel dan wisata di Bandung. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                        <div class="botContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/kota/Surabaya.jpg" alt="Surabaya">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Surabaya</h1>
+                                <p>Travel dan wisata di Surabaya. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                        <div class="botContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/kota/France.jpg" alt="France">
+                            </div>
+                            <div class="leftBox">
+                                <h1>France</h1>
+                                <p>Travel dan wisata di France. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="callUs" class="whiteSection">
+            <img src="assets/desain/OrangeWave.png"OrangeWave" width="100%">
+            <div class="callUsContent">
+                <h1 id="callUsTitle">Kami Menantikan Liburan Anda Bersama Kami</h1>
+                <div class="paragraph">
+                    <p>Agent perjajalan kami telah beroperasi hampir 10 tahun dan memiliki mitra yang begitu profesional yang akan membuat anda merasakan liburan yang begitu indah bersama keluarga anda <br> kami menunggu kedatangan anda</p>
+                </div>
+                <button id="callUsButton">Pesan Sekarang</button>
+                <hr id="callUsLine">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="whiteSection">
+        <div class="footerLogo">
+            <img src="img/rw.svg" alt="Agent">
+        </div>
+        <div class="termPrivBox">
+            <p>Terms of Service</p>
+            <p>Privacy Policy</p>
+        </div>
+        <p id="copyright">&copy; 2018 Ribut Wicaksono</p>
+    </footer>
+
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1 style="padding-bottom: 30px; padding-top: 10px; text-align: center; color: blue;">Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+      <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+    <script src="js/index.js"></script>
+</body>
+</html>
