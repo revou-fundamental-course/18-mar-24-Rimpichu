@@ -28,7 +28,6 @@
         <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar nav">
             <div class="container">
                 <a href="#" class="brand-block clearfix nav-brand">
-                    <img src="img/channels4_profile.jpg" width="65" alt="" class="logo-img"/>
                     <h1 class="logo-title">Agent Perjalanan</h1>
                 </a>
                 <nav role="navigation" class="nav-menu nav-menu">
@@ -335,19 +334,22 @@
                         <input class="field input" maxlength="256" name="email" data-name="Email" placeholder="Email" type="email" id="field" required=""/>
                         <input class="field darker input" maxlength="256" name="budget" data-name="Budget" placeholder="Budget" type="text" id="field" required=""/>
                         <textarea placeholder="Describe your project..." maxlength="5000" required="" name="comments" data-name="Comments" id="field" class="field large input"></textarea>
-                        <input type="submit" data-wait="Please wait..." class="button form button" value="Kirim Pesan"/>
+                        <input onclick="kirim" type="submit" data-wait="Please wait..." class="button form button" value="Kirim Pesan"/>
                     </form>
                     <div class="success-message form-done">
                         <h1>Terima Kasih!</h1>
                         <p>Kiriman Anda telah diterima!</p>
                     </div>
                     <div class="form-fail">
-                        <p>Ups! Ada yang tidak beres saat mengirimkan formulir:(</p>
+                        <p>Ups! Ada yang tidak beres saat mengirimkan formulir(</p>
                     </div>
                 </div>
                 <img src="img/channels4_profile.jpg" width="43" alt="" class="footer-logo"/>
                 <p class="footer-text">Agent Perjalanan @2024 - Ribut Wicaksono.</p>
             </div>
+            <button id="btn-scroll" class="btn-scroll" onclick="scrollToTop()">
+                <i class="fa fa-arrow-up"><img src="img/top.png"></i>
+            </button>
         </footer>
         <script src="js/index.js" type="text/javascript"></script>
     </body>
