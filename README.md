@@ -1,4 +1,5 @@
-Nama : Ribut Wicaksono
+Nama : Ribut Wicaksono <br>
+email mbahrepot2@gmail.com
 belajar pemograman otodidak udh 7 tahun lebih
 
 jadi buat para Koreksi Tugas jangan heran nnti.. karena emang sengaja sama isi nya
