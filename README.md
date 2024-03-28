@@ -1,7 +1,7 @@
 
 <h1 align="center" id="title">Fundamental Course Web Page</h1>
 
-<p align="center"><img src="https://socialify.git.ci/revou-fundamental-course/18-mar-24-NCodeID/image?description=1&amp;descriptionEditable=Made%20by%20Ribut%20Wicaksono&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
+<p align="center"><img src="https://github.com/revou-fundamental-course/18-mar-24-Rimpichu.gitdescription=1&amp;descriptionEditable=Made%20by%20Ribut%20Wicaksono&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
 <p id="description">Project ini di submit guna menyelesaikan mini-project dari Software Engineer Fundamental Course yang dimulai pada tanggal 18-Mar-2024.</p>
 
